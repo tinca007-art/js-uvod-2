@@ -1,0 +1,2 @@
+// cyklus for
+
