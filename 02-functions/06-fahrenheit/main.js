@@ -11,3 +11,4 @@ celsius = (fahrenheit - 32) * 0.5556
 Zkuste funkci zavolat s několika různými teplotami.
 */
 
+function toCelsius() {}

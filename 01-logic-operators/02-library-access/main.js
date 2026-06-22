@@ -8,4 +8,17 @@ Má-li uživatel kartičku a knihovna je zrovna otevřená, napište do konzole 
 **Bonus:** Pod “Přístup nepovolen” napište i důvod, proč uživatel do knihovny nemůže. Není členem nebo knihovna není otevřená?
 */
 
+const clen = true;
+const otevreno = true;
 
+if (clen && otevreno) {
+    console.log('Přístup povolen');
+} else {
+    console.log('Přístup nepovolen');
+if (!clen) {
+    console.log('Nemáš členskou kartičku');
+}
+if (!otevreno) {
+    console.log('Knihovna je zavřená');
+}
+}

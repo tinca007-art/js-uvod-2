@@ -8,4 +8,7 @@ Funkce jako výsledek vrátí jeho obsah.
 Obsah spočítáme jako (a * b) / 2.
 */
 
+function obsahTrojuhelniku(a, b) {
 
+    return (a * b) / 2;
+}

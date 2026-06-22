@@ -12,3 +12,7 @@ Ahoj, jsem *Alena*, je mi *23* let, narodila jsem se ve městě *Kolín* a mám 
 S takovým představením je láska je zaručena.
 */
 
+function speedDating(jmeno, vek, mesto, konicek) {
+    console.log(`Ahoj, jsem ${jmeno}, je mi ${vek}, narodila jsem se ve městě ${mesto} a mám ráda ${konicek}.`);
+}
+speedDating('Alena', '23', 'Kolin','kite surfing');

@@ -5,7 +5,7 @@ export default defineConfig({
   // Odkomentujte cestu ke cvičení, na kterém pracujete:
 
   // --- 01-logic-operators ---
-  root: './01-logic-operators/01-logic-operators',
+  // root: './01-logic-operators/01-logic-operators',
   // root: './01-logic-operators/02-library-access',
   // root: './01-logic-operators/03-fruit',
   // root: './01-logic-operators/04-shirt-size',
