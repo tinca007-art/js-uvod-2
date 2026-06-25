@@ -55,3 +55,9 @@ const data = {
   city: 'Zocca',
   cod: 200
 }
+console.log(data.city);
+console.log(data.weather.type);
+console.log(data.weather.description);
+console.log(data.weather.main.temp);
+console.log(data.weather.main.temp_max);
+console.log(data.weather.rain.hour);

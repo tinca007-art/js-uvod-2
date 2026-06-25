@@ -20,3 +20,12 @@ const kvetiny = [
   'Kosatec',
   'Levandule'
 ];
+let nejdelsíSlovo = '';
+
+for (let i = 0; i < kvetiny.length; i++) {
+  if (kvetiny[i].length > nejdelsíSlovo.length) {
+    nejdelsíSlovo = kvetiny[i];
+  }
+  }
+
+console.log(nejdelsíSlovo);

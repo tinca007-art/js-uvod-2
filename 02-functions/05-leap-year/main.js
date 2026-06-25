@@ -9,11 +9,11 @@ Přestupný rok je dělitelný číslem 4. Roky dělitelné číslem 100 jsou al
 */
 
 function prestupnyRok(rok) {
-if (rok / 4) {
+if (rok % 4 === 0) {
     return true;
-} else if (rok / 100) {
+} else if (rok % 100 ===0 && rok % 400 === 0) {
+    return true;
+}
     return false;
 }
-
-}
-prestupnyRok(1999);
+console.log( prestupnyRok(1950));

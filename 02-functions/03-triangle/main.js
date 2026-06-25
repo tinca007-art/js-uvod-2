@@ -10,5 +10,7 @@ Obsah spočítáme jako (a * b) / 2.
 
 function obsahTrojuhelniku(a, b) {
 
-    return (a * b) / 2;
+    return;
 }
+const vysledek = obsahTrojuhelniku((a * b) / 2);
+console.log(vysledek);

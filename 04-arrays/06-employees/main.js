@@ -7,3 +7,15 @@ Vlastnost zamestnanci uvnitř objektu je pole osob. Každá osoba je znovu objek
 
 Do konzole vypište jméno, příjmení a pozici druhého zaměstnance ve firmě.
 */
+
+const firma = {   
+    nazev: 'CopyPartner satisfies.r.o.',
+    rokZalozeni: 1999,
+    zamestnanci: [    
+        {jmeno: 'Alena', prijmeni: 'Nováková', pozice: 'ředitelka'},
+        {jmeno: 'Petr', prijmeni: 'Nový', pozice: 'manažer'},
+        {jmeno: 'Pavel', prijmeni: 'Novotný', pozice: 'IT specialista'},
+    ]
+}
+
+console.log(firma.zamestnanci[1]);

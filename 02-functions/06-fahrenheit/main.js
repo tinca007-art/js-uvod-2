@@ -11,4 +11,7 @@ celsius = (fahrenheit - 32) * 0.5556
 Zkuste funkci zavolat s několika různými teplotami.
 */
 
-function toCelsius() {}
+function toCelsius(fahrenheit) {
+    return fahrenheit;
+}
+console.log(toCelsius((99 - 32) * 0.5556));

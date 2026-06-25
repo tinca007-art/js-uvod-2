@@ -11,9 +11,10 @@ Pro účely příkladu předstírejme, že nevíme, že v JavaScriptu už existu
 */
 
 function max2(a, b) {
-if (a > b) {
+if (a >= b) {
     return a;
 }
     return b;
 }
-max2(7, 13);
+const x = max2(4, 4);
+console.log(x);

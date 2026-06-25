@@ -19,4 +19,4 @@ if (teplota > 20 && teplota < 38) {
 }
 
 // nebo pomocí ternárního operátoru
-console.log(`Venku jr ${teplota} stupňů. Obleč si ${teplota >= 20 && teplota <= 38 ? 'tričko a kraťasy' : 'skafandr'}`);
+console.log(`Venku je ${teplota} stupňů. Obleč si ${teplota >= 20 && teplota <= 38 ? 'tričko a kraťasy' : 'skafandr'}`);
