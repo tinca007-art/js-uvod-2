@@ -1,3 +1,4 @@
+
 //deklarace funkce
 function pozdrav() {
     console.log('Ahoj');
